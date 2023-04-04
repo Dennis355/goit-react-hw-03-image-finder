@@ -98,7 +98,7 @@ export class App extends Component {
   render() {
     const { images, error, isLoading, showModal, largeImageURL, tags, total } =
       this.state;
-    const loadImages = images.length !== 0;
+    const loadImages = images.length > 0;
     const isLastPage = images.length === total;
     const loadMoreBtn = loadImages && !isLoading && !isLastPage;
 
