@@ -41,13 +41,3 @@ export const fetchData = async (query, page ) => {
 
 
 
-
-
-// export const fetchData = (query, page, perPage) => {
-//   return axios
-//     .get(
-//       `${BASE_URL}/api/?q=${query}&page=${page}&key=${API_KEY}&image_type=photo&orientation=horizontal&per_page=${perPage}`
-//     )
-//     .then(response => response.data);
-// };
-
