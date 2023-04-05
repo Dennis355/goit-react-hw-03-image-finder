@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 
-import { fetchData } from 'components/api/pixabayApi';
+import { fetchData } from '../../src/api/pixabayApi';
 import { SearchBar } from 'components/Searchbar/Searchbar';
 import { ImageGallery } from 'components/ImageGallery/ImageGallery';
 import { Button } from 'components/Button/Button';
